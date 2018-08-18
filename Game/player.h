@@ -1,6 +1,6 @@
 using namespace std;
 
-class Player()
+class Player
 {
 public:
 	// variables
@@ -12,6 +12,7 @@ public:
 	int age = 0;
 	int sex = 0;
 	int xp = 0;
+	int level = 0;
 	
 
 	// member functions
