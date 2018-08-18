@@ -7,7 +7,7 @@ public:
 	int health = 100;
 	int maxHealth = 100;
 	int armor = 0;
-	int maxArmor = 50
+	int maxArmor = 50;
 	string name = "";
 	int age = 0;
 	int sex = 0;
@@ -30,6 +30,10 @@ public:
 	bool player_dead()
 	{
 		return health == 0;
+	}
+
+	void player_damage(int damage){
+		health -= damage;
 	}
 
 

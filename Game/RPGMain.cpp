@@ -1,9 +1,7 @@
-#include <iostream>
-#include <string>
-#include "player.h"
+#include "RPGMain.h"
 
 using namespace std;
-void setupGame(Player& player);
+// void setupGame(Player& player);
 
 int main(){
 
@@ -63,7 +61,7 @@ void setupGame(Player& player){
 	}
 
 	cout << "So here's some info about yourself: " << endl;
-	player.printInfo();
+	player.print_info();
 }
 
 
