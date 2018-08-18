@@ -1,6 +1,6 @@
 using namespace std;
 
-class Player()
+class Player
 {
 public:
 	// variables
@@ -12,7 +12,7 @@ public:
 	int sex = 0;
 
 	// member functions
-	Player::Player(){}
+	Player(){}
 
 	void printInfo()
 	{
