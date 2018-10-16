@@ -5,7 +5,10 @@
 	#include "player.h"
 
 	void setupGame(Player& player);
-	// void isGameOver();
+	void startGame(Player& player);
+	bool isGameOver(Player& player);
+	void introduction(Player& player);
+	void playRPS(Player& player);
 	// bool monsterEncounter();
 	// bool itemDrop();
 	// void battle();
